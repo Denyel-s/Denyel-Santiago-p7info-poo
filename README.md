@@ -1,2 +1,2 @@
-# Denyel-Santiago-p7info-poo
-Repositório para as atividades de POO
+# Repositório de POO
+Repositório de atividades da disciplina de POO no p7 de Info
