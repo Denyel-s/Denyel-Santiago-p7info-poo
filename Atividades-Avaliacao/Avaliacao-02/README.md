@@ -17,7 +17,6 @@ Exiba também a palavra com a maior quantidade de caracteres de todas as frases 
 Se possuir palavras com números identicos de caracteres, considerar a última recebida.
 
            Exemplo de Entrada            |    Exemplo de Saída
------------------------------------------------------------------
 i love you                               |  1-4-3
 squirtle squirtle squirtle               |  8-8-8
 chondrocraniums                          |  15
