@@ -33,8 +33,9 @@ def bigger_word(lista):
         phrase_split = phrase.split()
         for word in phrase_split:
             word_list.append(word)
-    word_list.sort(reverse=True, key=sort_list)
-    return word_list[0]
+    word_list.sort(reverse=False, key=sort_list)
+    n = len(word_list)
+    return word_list[n-1]
 i = 1
 lista_de_palavras = []
 print("{}\n{:<40}".format('-'*60,'Contador de caracteres em frases.'))
