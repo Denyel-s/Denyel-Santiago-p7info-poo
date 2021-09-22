@@ -16,11 +16,11 @@ Exiba também a palavra com a maior quantidade de caracteres de todas as frases 
 
 Se possuir palavras com números identicos de caracteres, considerar a última recebida.
 
-           Exemplo de Entrada            |    Exemplo de Saída
-i love you                               |  1-4-3
-squirtle squirtle squirtle               |  8-8-8
-chondrocraniums                          |  15
-coal is so dark                          |  4-2-2-4
-lacing your dreams                       |  6-4-6
-te t e te t e te t e te                  |  2-1-1-2-1-1-2-1-1-2
-0
+            Exemplo de Entrada               |  Exemplo de Saída
+    i love you                               |  1-4-3
+    squirtle squirtle squirtle               |  8-8-8
+    chondrocraniums                          |  15
+    coal is so dark                          |  4-2-2-4
+    lacing your dreams                       |  6-4-6
+    te t e te t e te t e te                  |  2-1-1-2-1-1-2-1-1-2
+    0
