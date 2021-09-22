@@ -46,6 +46,5 @@ while (1 <= i <=100):
     if Frase == 0 or Frase == str(0):
         break
 print_count(lista_de_palavras)
-print(lista_de_palavras)
 bigger_word_number = count_palavra(bigger_word(lista_de_palavras))
 print('-'*60,"\nMaior palavra das frases: \"{}\"! Possuindo {} caracteres.".format(bigger_word(lista_de_palavras),bigger_word_number))
