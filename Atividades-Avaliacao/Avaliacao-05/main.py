@@ -4,7 +4,7 @@
 """
 from produto        import Produto
 from cliente        import Cliente
-from Notafiscalteste     import NotaFiscal
+from notafiscal     import NotaFiscal
 from itemnotafiscal import ItemNotaFiscal
 from tipocliente    import TipoCliente
 
