@@ -14,7 +14,7 @@ from cliente        import Cliente
 from produto        import Produto
 from itemnotafiscal import ItemNotaFiscal
 
-class NotaFiscal():         
+class NotaFiscal():
     def __init__(self, Id, codigo, cliente):
         self._Id = Id
         self._codigo=codigo
@@ -44,13 +44,17 @@ class NotaFiscal():
         return self._cliente
     def getData(self):
         return self._data
-    def getItens(self):
-        nome= []
+
+    def getSeq(self):
         seq= []
         for item in self._itens:
-            nome.append(item._descricao)
             seq.append(item._sequencial)
-        return  nome
+        return seq
+    def getNome(self):
+        Nome = []
+        for item in self._itens:
+            Nome.append(item._sequencial)
+        return Nome
 
     def getValor(self):
         return self.valorNota
@@ -60,7 +64,6 @@ class NotaFiscal():
         print(("Código: {}".format(self.getCodigo())))
         print("Cliente: {}".format(self.getCliente()))
         print("Data: {}".format(self.getData()))
-        print("Itens: {}".format(self.getItens()))
-        for x in self.getItens():
-            print("Items: {}".format(x))
+        for seq in self.getSeq():
+            print("Items: {}".format(seq))
         print("Valor nota fiscal: {}".format(self.getValor()))
